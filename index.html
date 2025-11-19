@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>模試復習単元推定サイト</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">志望校情報入力</a></h1>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>志望校と模試の情報を選択してください</h2>
+
+            <label>学校種別</label>
+            <select id="schoolType">
+                <option value="">選択してください</option>
+                <option value="public">公立</option>
+                <option value="private">私立</option>
+            </select>
+
+            <label for="schoolSelect">志望校</label>
+            <select id="schoolSelect">
+                <option value="">選択してください</option>
+            </select>
+
+
+            <label>模試の年度</label>
+            <select id="examYear">
+                <option value="">選択してください</option>
+                <option value="2024">2024</option>
+                <!-- <option value="2025">2025</option> -->
+            </select>
+
+            <label>模試の月</label>
+            <select id="examMonth">
+                <option value="">選択してください</option>
+                <option value="09">9月</option>
+                <option value="10">10月</option>
+                <!-- <option value="11">11月</option>
+                <option value="12">12月</option>
+                <option value="01">1月</option> -->
+            </select>
+
+            <label>科目</label>
+            <select id="examSubject">
+                <option value="">選択してください</option>
+                <option value="math">数学</option>
+                <option value="science">理科</option>
+                <option value="social_studies">社会</option>
+            </select>
+
+            <br>
+
+            <button id="goQuestions">次へ</button>
+            <button id="resetStorage" style="margin-top: 12px; background:#cc0000;">リセット</button>
+
+        </section>
+
+        <h3>本サイトは以下の教材情報を用いて開発しています</h3>
+        <ul>
+            <li>フォレスタゴール（数学）[2023第4版]</li>
+            <li>フォレスタゴール（理科）[2023第4版]</li>
+            <li>フォレスタゴール（社会）[2023第4版]</li>
+            <li>2024年度 進学研究会V模擬過去問集 千葉県立版（数学）</li>
+            <li>2024年度 進学研究会V模擬過去問集 千葉県立版（理科）</li>
+            <li>2024年度 進学研究会V模擬過去問集 千葉県立版（社会）</li>
+        </ul>
+        <h5>本サイト使用中に起きた不具合については，開発元までお伝えください</h5>
+    </main>
+
+    <footer>
+    &copy; 2025 うっちー（森塾鎌取校）
+    </footer>
+</body>
+</html>

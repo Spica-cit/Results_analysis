@@ -1,0 +1,183 @@
+/* ---------------- 全体 ---------------- */
+body {
+    font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+    background: #e6f4ea;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background: #008000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 760px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* ヘッダー内リンクを白色に固定 */
+header h1 a,
+header h2 a,
+header h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 a:hover,
+header h2 a:hover,
+header h3 a:hover {
+    color: #ccffcc;
+    text-decoration: underline;
+}
+
+/* ---------------- カード ---------------- */
+.card {
+    background: white;
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    margin-bottom: 28px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}
+
+/* ---------------- 見出し ---------------- */
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #006400;
+}
+
+h3 {
+    font-size: 18px;
+    color: #008000;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+/* ---------------- フォーム ---------------- */
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: 600;
+    color: #335533;
+}
+
+select, button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    border-radius: 12px;
+    border: 1px solid #99cc99;
+    font-size: 16px;
+    background: #f0f8f0;
+}
+
+input {
+    width: auto;
+    padding: 14px;
+    margin-top: 8px;
+    border-radius: 12px;
+    border: 1px solid #99cc99;
+    font-size: 16px;
+    background: #f0f8f0;
+}
+
+button {
+    background: #008000;
+    color: white;
+    border: none;
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,128,0,0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    box-shadow: 0 6px 14px rgba(0,128,0,0.35);
+}
+
+/* ---------------- 質問ブロック ---------------- */
+.question-block {
+    padding: 14px 0;
+    border-bottom: 1px solid #cce6cc;
+}
+
+.radio-group label {
+    margin-right: 15px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+/* ---------------- 印刷用 ---------------- */
+@media print {
+    body {
+        background: white;
+        color: #000;
+    }
+    button {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+}
+
+/* ---------------- モバイル対応 ---------------- */
+@media (max-width: 600px) {
+    header {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .card {
+        padding: 22px;
+    }
+    select, button {
+        font-size: 15px;
+        padding: 12px;
+    }
+    footer {
+        font-size: 13px;
+        padding: 10px 0;
+    }
+}
+
+/* ---------------- フッター ---------------- */
+footer {
+    background: #004d00;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 14px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+}
+
+footer a {
+    color: #aaffaa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
