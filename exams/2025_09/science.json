@@ -1,0 +1,87 @@
+{
+  "subject": "science",
+  "examYearMonth": "2025_09",
+  "majorQuestions": [
+    {
+      "id": "1",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "1" },
+        { "no": 2, "unit": "", "difficulty": "1" },
+        { "no": 3, "unit": "", "difficulty": "2" },
+        { "no": 4, "unit": "", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "2",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "0" },
+        { "no": "3(a)", "unit": "", "difficulty": "1" },
+        { "no": "3(b)", "unit": "", "difficulty": "1" }
+      ]
+    },
+    {
+      "id": "3",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "0" },
+        { "no": 3, "unit": "", "difficulty": "2" },
+        { "no": 4, "unit": "", "difficulty": "2" }
+      ]
+    },
+    {
+      "id": "4",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "1" },
+        { "no": 3, "unit": "", "difficulty": "2" },
+        { "no": 4, "unit": "", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "5",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "0" },
+        { "no": 3, "unit": "", "difficulty": "0" },
+        { "no": 4, "unit": "", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "6",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "2" },
+        { "no": 3, "unit": "", "difficulty": "1" },
+        { "no": 4, "unit": "", "difficulty": "2" }
+      ]
+    },
+    {
+      "id": "7",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "0" },
+        { "no": 3, "unit": "", "difficulty": "2" },
+        { "no": 4, "unit": "", "difficulty": "2" }
+      ]
+    },
+    {
+      "id": "8",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "1" },
+        { "no": "3(a)", "unit": "", "difficulty": "0" },
+        { "no": "3(b)", "unit": "", "difficulty": "1" }
+      ]
+    },
+    {
+      "id": "9",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "1" },
+        { "no": 2, "unit": "", "difficulty": "2" },
+        { "no": 3, "unit": "", "difficulty": "1" },
+        { "no": 4, "unit": "", "difficulty": "0" }
+      ]
+    }
+  ]
+}

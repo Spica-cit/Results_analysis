@@ -1,0 +1,50 @@
+{
+  "subject": "math",
+  "examYearMonth": "2025_09",
+  "majorQuestions": [
+    {
+      "id": "1",
+      "subquestions": [
+        { "no": "1-①", "unit": "", "difficulty": "0" },
+        { "no": "1-②", "unit": "", "difficulty": "0" },
+        { "no": "1-③", "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "0" },
+        { "no": 3, "unit": "", "difficulty": "0" },
+        { "no": "4-①", "unit": "", "difficulty": "0" },
+        { "no": "4-②", "unit": "", "difficulty": "0" },
+        { "no": "5-①", "unit": "", "difficulty": "0" },
+        { "no": "5-②", "unit": "", "difficulty": "0" },
+        { "no": "6-①", "unit": "", "difficulty": "0" },
+        { "no": "6-②", "unit": "", "difficulty": "0" },
+        { "no": "7-①", "unit": "", "difficulty": "0" },
+        { "no": "7-②", "unit": "", "difficulty": "1" },
+        { "no": 8, "unit": "", "difficulty": "1" }
+      ]
+    },
+    {
+      "id": "2",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "1" },
+        { "no": 3, "unit": "", "difficulty": "2" }
+      ]
+    },
+    {
+      "id": "3",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "", "difficulty": "2" },
+        { "no": 3, "unit": "", "difficulty": "2" }
+      ]
+    },
+    {
+      "id": "4",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "1" },
+        { "no": 2, "unit": "", "difficulty": "1" },
+        { "no": "3-①", "unit": "", "difficulty": "1" },
+        { "no": "3-②", "unit": "", "difficulty": "2" }
+      ]
+    }
+  ]
+}
