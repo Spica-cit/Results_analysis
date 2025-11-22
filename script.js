@@ -182,8 +182,8 @@ document.addEventListener("DOMContentLoaded", () => {
          * 偏差値 → 解いてよい難易度
          **********************/
         function getAllowedDifficulty(score) {
-            if (score < 50) return ["0"];
-            if (score < 55) return ["0", "1"];
+            if (score < 45) return ["0"];
+            if (score < 50) return ["0", "1"];
             return ["0", "1", "2"];
         }
 
@@ -297,7 +297,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 container.innerHTML = '<h2>以下の単元をFゴールで復習しよう！</h2>';
 
-                Object.entries(reviewUnits).forEach(([unit, questions]) => {
+                // ★ ソート用の配列を作る
+                const sortedUnits = Object.keys(reviewUnits).sort((a, b) => {
+                    const na = parseInt(a.match(/\d+/));
+                    const nb = parseInt(b.match(/\d+/));
+                    return na - nb;
+                });
+
+                container.innerHTML = '<h2>以下の単元をFゴールで復習しよう！</h2>';
+
+                // ★ ソートした順でループ
+                sortedUnits.forEach(unit => {
 
                     const unitName =
                         unitNames[subject] && unitNames[subject][unit]
@@ -306,11 +316,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     container.innerHTML += `
                         <h3>・ 単元 ${unit}：${unitName}</h3>
-                            <label>
-                                ① 復習日：＿＿＿月＿＿＿日
-                                <br><br>
-                                ② 復習日：＿＿＿月＿＿＿日
-                            </label>
+                        <label>
+                            ① 復習日：＿＿＿月＿＿＿日
+                            <br><br>
+                            ② 復習日：＿＿＿月＿＿＿日
+                        </label>
+                        <hr>
                     `;
                 });
             });
