@@ -25,8 +25,8 @@
       "id": "2",
       "subquestions": [
         { "no": 1, "unit": "2-2", "difficulty": "0" },
-        { "no": 2, "unit": "2-2", "difficulty": "1" },
-        { "no": 3, "unit": "2-3", "difficulty": "2" }
+        { "no": "2-①", "unit": "2-2", "difficulty": "1" },
+        { "no": "2-②", "unit": "2-3", "difficulty": "2" }
       ]
     },
     {

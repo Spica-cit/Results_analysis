@@ -54,7 +54,7 @@
     {
       "id": "6",
       "subquestions": [
-        { "no": 1, "unit": "6", "difficulty": "2" },
+        { "no": 1, "unit": "19", "difficulty": "2" },
         { "no": 2, "unit": "13", "difficulty": "1" },
         { "no": 3, "unit": "14", "difficulty": "0" }
       ]
@@ -71,7 +71,7 @@
       "id": "8",
       "subquestions": [
         { "no": 1, "unit": "13", "difficulty": "1" },
-        { "no": 2, "unit": "6", "difficulty": "0" }
+        { "no": 2, "unit": "28", "difficulty": "0" }
       ]
     }
   ]

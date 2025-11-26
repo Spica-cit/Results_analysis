@@ -58,6 +58,34 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 });
 
+                // ★ 年度を選んだときの科目フィルタリング
+                const examYear = document.getElementById("examYear");
+                const examSubject = document.getElementById("examSubject");
+
+                examYear.addEventListener("change", () => {
+                    const yearVal = examYear.value;
+
+                    // 科目リストを初期化
+                    examSubject.innerHTML =
+                        '<option value="">選択してください</option>' +
+                        '<option value="math">数学</option>' +
+                        '<option value="science">理科</option>' +
+                        '<option value="social">社会</option>';
+
+                    // ★ 2024 年度なら数学以外を削除
+                    if (yearVal === "2024") {
+                        examSubject.innerHTML =
+                            '<option value="">選択してください</option>' +
+                            '<option value="math">数学</option>';
+                    }
+
+                    // 保存データがある場合は復活
+                    if (saved.subject && (yearVal !== "2024" || saved.subject === "math")) {
+                        examSubject.value = saved.subject;
+                    }
+                });
+
+
                 // ページ読み込み時、schoolType が保存されていた場合は強制発火
                 if (saved.schoolType) {
                     const evt = new Event("change");
