@@ -48,6 +48,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         const op = document.createElement("option");
                         op.value = s.name;
                         op.textContent = s.name;
+
+                        if(s.isGroup){
+                            op.disabled = true;
+                            op.style.color = "#0000ff";
+                            op.style.fontWeight = "bold";
+                        }else{
+                            op.value = s.name;
+                        }
+
                         schoolSelect.appendChild(op);
                     });
 
@@ -210,8 +219,8 @@ document.addEventListener("DOMContentLoaded", () => {
          * 偏差値 → 解いてよい難易度
          **********************/
         function getAllowedDifficulty(score) {
-            if (score < 45) return ["0"];
-            if (score < 50) return ["0", "1"];
+            if (score <= 45) return ["0"];
+            if (score <= 50) return ["0", "1"];
             return ["0", "1", "2"];
         }
 

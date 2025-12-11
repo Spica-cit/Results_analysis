@@ -1,0 +1,78 @@
+{
+  "subject": "social_studies",
+  "examYearMonth": "2025_11",
+  "majorQuestions": [
+    {
+      "id": "1",
+      "subquestions": [
+        { "no": 1, "unit": "", "difficulty": "0" },
+        { "no": 2, "unit": "13", "difficulty": "0" },
+        { "no": 3, "unit": "6", "difficulty": "0" },
+        { "no": 4, "unit": "24", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "2",
+      "subquestions": [
+        { "no": 1, "unit": "3", "difficulty": "0" },
+        { "no": 2, "unit": ["6", "8"], "difficulty": "0" },
+        { "no": 3, "unit": "8", "difficulty": "0" },
+        { "no": "4-①", "unit": "3", "difficulty": "0" },
+        { "no": "4-②", "unit": "4", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "3",
+      "subquestions": [
+        { "no": 1, "unit": "7", "difficulty": "0" },
+        { "no": 2, "unit": "5", "difficulty": "0" },
+        { "no": 3, "unit": "2", "difficulty": "0" },
+        { "no": 4, "unit": "7", "difficulty": "0" },
+        { "no": 5, "unit": "2", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "4",
+      "subquestions": [
+        { "no": 1, "unit": "11", "difficulty": "0" },
+        { "no": 2, "unit": "11", "difficulty": "0" },
+        { "no": 3, "unit": "11", "difficulty": "0" },
+        { "no": 4, "unit": "12", "difficulty": "0" },
+        { "no": 5, "unit": "13", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "5",
+      "subquestions": [
+        { "no": 1, "unit": "14", "difficulty": "0" },
+        { "no": 2, "unit": "14", "difficulty": "0" },
+        { "no": 3, "unit": "14", "difficulty": "0" },
+        { "no": 4, "unit": ["14", "15"], "difficulty": "0" },
+        { "no": 5, "unit": "16", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "6",
+      "subquestions": [
+        { "no": 1, "unit": "22", "difficulty": "0" },
+        { "no": 2, "unit": "22", "difficulty": "0" },
+        { "no": 3, "unit": ["6", "28"], "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "7",
+      "subquestions": [
+        { "no": 1, "unit": "23", "difficulty": "0" },
+        { "no": 2, "unit": "23", "difficulty": "0" },
+        { "no": 3, "unit": "23", "difficulty": "0" }
+      ]
+    },
+    {
+      "id": "8",
+      "subquestions": [
+        { "no": 1, "unit": "22", "difficulty": "0" },
+        { "no": 2, "unit": "22", "difficulty": "0" }
+      ]
+    }
+  ]
+}

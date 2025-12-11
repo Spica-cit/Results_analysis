@@ -16,16 +16,16 @@
         { "no": "5-②", "unit": "3-5", "difficulty": "0" },
         { "no": "6-①", "unit": "4-3", "difficulty": "0" },
         { "no": "6-②", "unit": "4-3", "difficulty": "0" },
-        { "no": "7-①", "unit": "3-3", "difficulty": "1" },
-        { "no": "7-②", "unit": "3-3", "difficulty": "2" },
-        { "no": 8, "unit": "3-1", "difficulty": "1" }
+        { "no": "7-①", "unit": "3-3", "difficulty": "0" },
+        { "no": "7-②", "unit": "3-3", "difficulty": "0" },
+        { "no": 8, "unit": "3-1", "difficulty": "0" }
       ]
     },
     {
       "id": "2",
       "subquestions": [
         { "no": 1, "unit": "2-2", "difficulty": "0" },
-        { "no": 2, "unit": "2-3", "difficulty": "1" },
+        { "no": 2, "unit": "2-3", "difficulty": "0" },
         { "no": 3, "unit": "2-3", "difficulty": "2" }
       ]
     },
@@ -41,7 +41,7 @@
       "id": "4",
       "subquestions": [
         { "no": "1-①", "unit": "1-8", "difficulty": "0" },
-        { "no": "1-②", "unit": "1-8", "difficulty": "1" },
+        { "no": "1-②", "unit": "1-8", "difficulty": "0" },
         { "no": "2-①", "unit": "1-8", "difficulty": "1" },
         { "no": "2-②", "unit": "1-8", "difficulty": "2" }
       ]
